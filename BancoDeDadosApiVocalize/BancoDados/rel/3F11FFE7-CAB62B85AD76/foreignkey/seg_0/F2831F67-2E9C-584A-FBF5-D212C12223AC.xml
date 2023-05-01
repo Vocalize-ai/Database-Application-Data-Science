@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2831F67-2E9C-584A-FBF5-D212C12223AC" containerWithKeyObject="4462FBC4-DBCA-F9D8-A4F9-CDA161963127" localFKIndex="9199BE17-3B02-1F41-B663-75A912E0B585" name="T_VT_ITENS_FATURA_PLANO_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>8A9A08B9-BDC7-FF93-2108-99A83F93F5E0</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<referredTableLongName>T_VT_PLANO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AD1CCAD-179C-4379-1E62-199C1C685BA3</referredTableID>
+<keyObject>AAF63069-1010-04D2-6048-2DF6C15E8790</keyObject>
+<referredKeyID>AAF63069-1010-04D2-6048-2DF6C15E8790</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PLANO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

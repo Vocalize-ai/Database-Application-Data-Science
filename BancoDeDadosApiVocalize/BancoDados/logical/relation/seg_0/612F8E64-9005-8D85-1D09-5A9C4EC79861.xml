@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLIENTE_LIGACAO" directorySegmentName="seg_0" id="612F8E64-9005-8D85-1D09-5A9C4EC79861">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:58:15 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<sourcePk>833FF4F2-C4DF-1A9B-AD75-1BFD39FEB437</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8D60670-F653-E30E-FAD8-F5AEA1E37798</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C0F953F-2629-7AA9-C9F5-7DD4D7291BC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

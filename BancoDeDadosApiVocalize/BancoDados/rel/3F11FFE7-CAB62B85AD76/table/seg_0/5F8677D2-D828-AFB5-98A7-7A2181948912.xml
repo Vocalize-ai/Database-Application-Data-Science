@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F8677D2-D828-AFB5-98A7-7A2181948912" name="T_VOCALIZE_FEEDBACK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<generatorID>EEF8DF2E-924C-9550-4ABC-DA054694460E</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FEEDBACK" id="DA5227E9-2FC0-8340-7A79-D97C75087B69">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da do feedback da ligação do cliente, gerada automáticamente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da do feedback da ligação do cliente, gerada automáticamente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>12C72BF3-9941-0405-10E3-FC8E98FBB293</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LIGACAO" id="5C2C4E18-AE1C-6B26-20BE-F2D066C1792B">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da ligação, gerada automáticamente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da ligação, gerada automáticamente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>36687796-D033-52F2-4E7A-5EFBDBED0043</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC7D4523-58F0-D04C-5E58-3C503EB3C31F" referredColumn="16A8F0FE-F4C4-F0B2-5D68-CC51AC9B1262"/>
+</associations>
+</Column>
+<Column name="NR_NIVEL_AVALIACAO" id="03CCC524-D8E7-A3CD-E4CB-346EC87B6253">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do nível de avaliação do feedback da ligação.Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do nível de avaliação do feedback da ligação.Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>0B02235D-5A67-F65C-3F76-AB098D69E119</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_COMENTARIO" id="E9DDD2C4-D7E3-2481-BEF5-F7A052D7CE12">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o comentário do feedback da ligação.Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o comentário do feedback da ligação.Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>18839702-9D9E-72C5-C1BE-F9D0F4D2A848</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A0B9D15-A747-9F31-984C-13880DF5D04D" name="T_VOCALIZE_FEEDBACK_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<generatorID>7DE40148-764D-8C1A-C733-F15AAF148B24</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA5227E9-2FC0-8340-7A79-D97C75087B69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C08EE3F-C4C3-ED74-7668-985B5D7F7D05" name="T_VOCALIZE_FEEDBACK_LIGACAO_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<generatorID>7DE3EA08-A7E2-B4C3-73DC-BB700C25AA72</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2C4E18-AE1C-6B26-20BE-F2D066C1792B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

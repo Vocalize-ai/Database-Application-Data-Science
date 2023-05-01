@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C0F953F-2629-7AA9-C9F5-7DD4D7291BC8" name="T_VOCALIZE_LIGACAO">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:46:33 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LIGACAO" id="529967E5-14B8-E502-E4AB-D9804190C3B0">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:46:53 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da ligação, gerada automáticamente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária da ligação, gerada automáticamente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="2F33966E-0F57-AEE4-57B7-EEEE8DF1C587">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:58:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<generatorID>612F8E64-9005-8D85-1D09-5A9C4EC79861</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<referedAttribute>CC4596D1-92D8-92A7-FAC0-779A7C2DD205</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_LIGACAO" id="5953D5DE-0EF2-A06A-499F-536B04A137BE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:47:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de ligação do cliente.Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de ligação do cliente.Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QTD_DURACAO" id="984A781B-F0AB-DE10-1EDC-840D2AFD20CD">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:47:50 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de duração da ligação do cliente.Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de duração da ligação do cliente.Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_TRANCRICAO_AUDIO" id="04A55E07-C651-0D4E-8B31-A3FE0559E788">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:49:07 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a transcrição do aúdio da ligação do cliente.Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a transcrição do aúdio da ligação do cliente.Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_TEMPERATURA" id="75134894-19AB-A9A7-E074-3F5AF5F9E963">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:50:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descriçaõ da temperatura da ligação do cliente.Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descriçaõ da temperatura da ligação do cliente.Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="20CF96E8-E915-1D19-75E6-66B86B21FE50" name="T_VOCALIZE_LIGACAO PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:47:11 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>529967E5-14B8-E502-E4AB-D9804190C3B0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

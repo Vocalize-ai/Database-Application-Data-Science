@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF0AC2BD-5738-4171-5B8F-E89668BFCAF3" name="T_VT_ITENS_FATURA">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>8D21C41B-4631-2B8B-E922-2C1FB20DE355</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ITENS_FATURA" id="133ABFDC-C5A1-6947-41BE-06DB5E9BF6E5">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>C4B2FFF8-8ACA-3540-26E8-4C64CA5696D3</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANO" id="41283098-3589-802E-73BC-EBCA783770B9">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>8A9A08B9-BDC7-FF93-2108-99A83F93F5E0</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>B7C79174-E0B0-8C86-014C-88772F9A51FF</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<referedAttribute>C6DD2B5A-4443-5541-9787-C684985383E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SERVICO_ADICIONAL" id="127AC866-380F-1707-250E-BECC5659CD7E">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>D4A1D894-6CA4-0928-35D5-F227CBC99263</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>5136DE37-66D6-C263-3164-DF1C0A8FAFE4</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<referedAttribute>33B80F3E-D17B-1D01-79FE-EB91AEBC09FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_PLANO" id="F06CD708-B851-65A9-9F4E-46ECF828E129">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>36E8DF5A-FA3A-DCC8-B170-122194A629E6</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ITEM_ADICIONADO" id="00E53265-6B2B-518F-75F7-70EE3455D179">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a date em que o item do plano foi adicionado , será preenchida  automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a date em que o item do plano foi adicionado , será preenchida  automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>3D36A0F7-7670-3C9B-5322-1CABE2FB0E87</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7536BBAC-33F0-B66E-D194-E8A026D719B7" name="T_VT_ITENS_FATURA PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>0F1766B6-0D3E-403D-B086-5C24C5CE9DC5</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>133ABFDC-C5A1-6947-41BE-06DB5E9BF6E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

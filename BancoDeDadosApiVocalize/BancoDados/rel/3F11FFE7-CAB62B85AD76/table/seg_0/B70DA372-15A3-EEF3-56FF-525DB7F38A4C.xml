@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B70DA372-15A3-EEF3-56FF-525DB7F38A4C" name="T_VT_TIPO_PAGAMENTO">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>1A28E95A-32A7-3B40-265C-FFFB1D9107F5</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPO_PAGAMENTO" id="899236E5-B82F-0BF7-5B86-E840728A4E09">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do tipo de pagamento gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do tipo de pagamento gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>FA9D4126-35D2-4C42-9951-4EB0649A3888</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_TIPO_PAGAMENTO" id="6EAF5522-6907-C7B1-C8C3-52392F5C5B08">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do tipo de pagamento. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do tipo de pagamento. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>C373D91D-E47B-F6D7-D5C4-015870B47EB0</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_TIPO_PAGAMENTO" id="27BB3C5A-61A8-72F0-9730-9CB794E5C09B">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do tipo de pagamento. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do tipo de pagamento. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>F5964F13-E2C1-45C9-31CB-ED5A1F294826</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95B52885-47AB-D672-02DE-094F493C355F" name="T_VT_TIPO_PAGAMENTO_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>0E3B2CF3-8411-3717-1E17-D922CEDA83D8</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="899236E5-B82F-0BF7-5B86-E840728A4E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

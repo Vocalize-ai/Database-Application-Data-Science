@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VOCATALK_CLIENTE_ENDERECO" directorySegmentName="seg_0" id="EDB5B5E2-DF65-B21C-99CF-44A4A43A6FA1">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>11B1110C-DDCF-C5D7-8E55-A2642C683355</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<sourcePk>833FF4F2-C4DF-1A9B-AD75-1BFD39FEB437</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E8D60670-F653-E30E-FAD8-F5AEA1E37798</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>872C0DD2-F478-5FBE-106E-141722A22526</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8D60670-F653-E30E-FAD8-F5AEA1E37798" name="T_VT_CLIENTE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>F8E5DF6D-9DE0-FF5F-3FFE-C40439600850</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="CC4596D1-92D8-92A7-FAC0-779A7C2DD205">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLiENTE" id="762630C5-4D00-9F72-E40D-AC4365F6BD1C">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o email do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o email do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>D4724E03-1117-C84B-0FB0-7423546FB230</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="7EA1349F-5424-7CB5-0CE2-6E44326A00FE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do cpf do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do cpf do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>2927E5F3-F2F2-95F4-B582-92FA8FB66C95</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="1DE8E3F1-3B3F-DFC3-39F9-07502264BB1A">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>5987EE39-8C90-F7AB-5558-2D09A728E19B</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="833FF4F2-C4DF-1A9B-AD75-1BFD39FEB437" name="T_VT_CLIENTE PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>BF8A43A2-0727-CBEB-EE4F-E198BC4DCF93</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC4596D1-92D8-92A7-FAC0-779A7C2DD205</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F0E274C6-3A50-2449-58A9-84FCE7BDAC3F" name="UK_VT_CPF">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>7EF90BB6-D1FD-22FA-EB8F-8191122A7EA6</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>7EA1349F-5424-7CB5-0CE2-6E44326A00FE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

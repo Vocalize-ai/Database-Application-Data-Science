@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC7D4523-58F0-D04C-5E58-3C503EB3C31F" containerWithKeyObject="5F8677D2-D828-AFB5-98A7-7A2181948912" localFKIndex="0C08EE3F-C4C3-ED74-7668-985B5D7F7D05" name="T_VOCALIZE_FEEDBACK_LIGACAO_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:08:15 UTC</createdTime>
+<generatorID>7DE3EA08-A7E2-B4C3-73DC-BB700C25AA72</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<referredTableLongName>T_VOCALIZE_LIGACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BFEA4A2B-9573-1AB0-3C3A-CE5B4A580539</referredTableID>
+<keyObject>F16559E7-0716-933B-67CF-E2BFDE717EEB</keyObject>
+<referredKeyID>F16559E7-0716-933B-67CF-E2BFDE717EEB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_LIGACAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

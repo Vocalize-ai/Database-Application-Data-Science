@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4462FBC4-DBCA-F9D8-A4F9-CDA161963127" name="T_VT_ITENS_FATURA">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>BF0AC2BD-5738-4171-5B8F-E89668BFCAF3</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ITENS_FATURA" id="604EE59A-886D-9966-C24D-88E65F07EFF6">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>133ABFDC-C5A1-6947-41BE-06DB5E9BF6E5</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PLANO" id="517FD714-79A0-7BBF-59FB-65969299E3DE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>41283098-3589-802E-73BC-EBCA783770B9</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2831F67-2E9C-584A-FBF5-D212C12223AC" referredColumn="B543747F-8C24-2059-0D77-386DF388C4D9"/>
+</associations>
+</Column>
+<Column name="ID_SERVICO_ADICIONAL" id="74053265-7AEA-1276-A210-7C0583E9203B">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>127AC866-380F-1707-250E-BECC5659CD7E</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C198B56A-33FC-9BB4-D06D-6E982B27185D" referredColumn="AB729939-90CB-3112-421C-2106F373F2BE"/>
+</associations>
+</Column>
+<Column name="ST_PLANO" id="FB8C11C7-69CC-6EF5-632B-ECA9EAE790E5">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></commentInRDBMS>
+<generatorID>F06CD708-B851-65A9-9F4E-46ECF828E129</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ITEM_ADICIONADO" id="C47340FB-B802-2F59-CAA3-A5870375943C">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a date em que o item do plano foi adicionado , será preenchida  automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a date em que o item do plano foi adicionado , será preenchida  automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>00E53265-6B2B-518F-75F7-70EE3455D179</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45B70440-2382-B254-2C38-D9DB5F7C46F7" name="T_VT_ITENS_FATURA_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>7536BBAC-33F0-B66E-D194-E8A026D719B7</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604EE59A-886D-9966-C24D-88E65F07EFF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9199BE17-3B02-1F41-B663-75A912E0B585" name="T_VT_ITENS_FATURA_PLANO_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>8A9A08B9-BDC7-FF93-2108-99A83F93F5E0</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="517FD714-79A0-7BBF-59FB-65969299E3DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEEB2D46-F9AA-3FDD-EC12-67C660FA007F" name="T_VT_ITENS_FATURA_SERV_ADI_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>D4A1D894-6CA4-0928-35D5-F227CBC99263</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74053265-7AEA-1276-A210-7C0583E9203B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

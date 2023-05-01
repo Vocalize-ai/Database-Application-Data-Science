@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C198B56A-33FC-9BB4-D06D-6E982B27185D" containerWithKeyObject="4462FBC4-DBCA-F9D8-A4F9-CDA161963127" localFKIndex="EEEB2D46-F9AA-3FDD-EC12-67C660FA007F" name="T_VT_ITENS_FATURA_SERV_ADI_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 22:38:48 UTC</createdTime>
+<generatorID>D4A1D894-6CA4-0928-35D5-F227CBC99263</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<referredTableLongName>T_VT_SERVICO_ADICIONAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96B621F4-1EC2-EE1D-8AC3-D5C429E8233A</referredTableID>
+<keyObject>2CA32A19-261C-AC92-FA62-B710A11CB52B</keyObject>
+<referredKeyID>2CA32A19-261C-AC92-FA62-B710A11CB52B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SERVICO_ADICIONAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

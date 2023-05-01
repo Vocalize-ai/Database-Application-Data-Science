@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9349386-9273-E3E2-D7F5-93B2EC2C78DB" name="T_VT_LOGIN">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:47 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>645E1563-7E69-0A7A-96BD-75536F2F4F9D</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LOGIN" id="F4B78FE6-1DE5-BC81-9769-002359844020">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do login do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do login do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>2613C4A4-2B76-82A5-AA7B-5F91432FBCF0</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CLIENTE" id="BDADB6F3-1312-CDC5-375B-0B038740BB58">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>87748099-9A2D-506C-0992-FF1B82E4D3D7</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>1BBA88F5-66A4-8716-1E5A-C0D14B58E4C5</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<referedAttribute>CC4596D1-92D8-92A7-FAC0-779A7C2DD205</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EMAIL" id="CF6913A4-3349-AE6A-E325-24F88E7BF6EB">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o email do login do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o email do login do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>310BCC58-AC53-64D3-1642-549EB081F6F0</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SENHA" id="0A1636EA-75E8-44AE-46A2-0221C4717B6D">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a senha do login do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a senha do login do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>DAFCD7B7-2845-335B-5D7B-E39475474E30</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ULTIMO_LOGIN" id="F0219D13-F4ED-B142-7FA3-8E352564F49F">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data do último login do cliente, gerada automáticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data do último login do cliente, gerada automáticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>623ABC63-9064-4B29-C299-C7A9BA85A2A5</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EB00372-A758-8375-2FEB-C6F1C1251EE1" name="T_VT_LOGIN PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>A8DECD21-4A3B-A76D-06ED-349D4E2BBCBE</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4B78FE6-1DE5-BC81-9769-002359844020</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="45EBE91B-607B-2980-1D93-66969308D742" name="UK_VT_EMAIL">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>C0508B24-C902-39D5-8F09-FA5670182C32</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>CF6913A4-3349-AE6A-E325-24F88E7BF6EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

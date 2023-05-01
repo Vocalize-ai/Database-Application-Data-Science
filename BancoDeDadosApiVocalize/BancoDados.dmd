@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BancoDados" id="D34C6953-9F92-E100-78F9-6AE5D04BD780" version="3.5">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-03-31 00:45:09 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D34C6953-9F92-E100-78F9-6AE5D04BD780</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C0799B7B-C5C6-3690-2E39-A2F3C7894235">
+<designStoragePath>C:\Users\Daniele\Desktop\2-ano-facul\Challenge\BancoDadosVocaTalk\BancoVocatalk</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

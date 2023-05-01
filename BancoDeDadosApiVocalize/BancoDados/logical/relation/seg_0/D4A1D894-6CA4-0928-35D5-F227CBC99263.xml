@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VT_SERVICO_ADI_ITENS_FATURA" directorySegmentName="seg_0" id="D4A1D894-6CA4-0928-35D5-F227CBC99263">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>A2105D51-A18E-59F4-052E-78FA4B243EA8</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<sourcePk>666B8CD1-D2D2-65A3-22A5-3B4E5415036D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0DF188FC-F0B1-2F59-9DFB-D8B8616499D2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF0AC2BD-5738-4171-5B8F-E89668BFCAF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DF188FC-F0B1-2F59-9DFB-D8B8616499D2" name="T_VT_SERVICO_ADICIONAL">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>8B7CC871-9E5B-E147-7835-DD0FF5E4303B</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SERVICO_ADICIONAL" id="33B80F3E-D17B-1D01-79FE-EB91AEBC09FD">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>8A66AC04-8A29-2EE2-40D6-39CD3CEF0A3F</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_SERVICO" id="342A255C-C93E-0A84-012D-4B57755AE796">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do servico adicional. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do servico adicional. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>7568603C-F480-A0E1-6B06-1DE9AF62ACF2</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VLR_SERVICO" id="0289C7A0-8CF7-B29E-06C5-36B397A1E667">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor do servico adicional. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor do servico adicional. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>626A89DB-35CA-C9B4-4F6B-987D12982A8B</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SERVICO_ADICIONAL" id="991FF1FE-FA13-A17A-7A39-65860A3919B6">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do servico adicional. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do servico adicional. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>0E76EC11-6DBB-168F-53AE-0F39F1E13CB2</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="666B8CD1-D2D2-65A3-22A5-3B4E5415036D" name="T_VT_SERVICO_ADICIONAL PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 21:44:48 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<importedID>FC122248-50EB-794E-75D7-010F5E935383</importedID>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33B80F3E-D17B-1D01-79FE-EB91AEBC09FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
