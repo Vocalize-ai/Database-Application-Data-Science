@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VOCATALK_CLIENTE_LOGIN" directorySegmentName="seg_0" id="F94FFE72-8644-CFC0-DDD7-1CDD83CA6E22">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:58:09 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<sourcePk>BF8A43A2-0727-CBEB-EE4F-E198BC4DCF93</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8E5DF6D-9DE0-FF5F-3FFE-C40439600850</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>645E1563-7E69-0A7A-96BD-75536F2F4F9D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

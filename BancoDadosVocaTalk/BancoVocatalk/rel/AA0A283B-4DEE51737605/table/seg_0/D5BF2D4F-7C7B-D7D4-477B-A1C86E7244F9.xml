@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5BF2D4F-7C7B-D7D4-477B-A1C86E7244F9" name="T_VT_PLANO">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>0BB11076-06E4-4221-3CAB-5747D96E2223</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PLANO" id="09509CD2-7CB4-93D4-842A-A2B0CCF70BBE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>9EFC04D1-39CE-63E0-9D43-5DAD31E6CCAF</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PLANO" id="F7DE06DD-C46B-953C-8BEE-D17A7F8C3823">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do plano. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do plano. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>708C21BB-4425-67BA-5FA4-9AD81FBAD476</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_FRANQUIA_MINUTOS" id="94230011-B917-B554-0D8A-C18F5CBFCEB5">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de minutos da franquia  do plano. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de minutos da franquia  do plano. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>CB3CF260-3968-D446-67D7-4A1DFD83091C</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTD_FRANQUIA_INTERNET" id="E832C044-CD0D-1E5F-B211-8C2F7A1CAF50">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a quantidade de internet da franquia  do plano. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a quantidade de internet da franquia  do plano. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>446A4751-46D8-B1B6-8606-959D0A1A1B9C</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLR_MENSAL" id="9CEFBB4C-3450-83C3-8566-3ADA5FAE3631">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor mensal  do plano. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor mensal  do plano. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>DE557F8B-8320-A1A4-EC53-DAC6AA949FB2</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_PLANO" id="EB83FEBB-DF82-0B15-2590-06AD9B530397">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-02 01:45:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do plano. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do plano. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>71D3DD3B-9D14-4C0A-1074-BE74C035E52C</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02A5648D-35E5-5749-EFBE-BBCD072CEE08" name="T_VT_PLANO_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>F7EA91CF-E1C4-37DF-70FE-D810D1654F87</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09509CD2-7CB4-93D4-842A-A2B0CCF70BBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

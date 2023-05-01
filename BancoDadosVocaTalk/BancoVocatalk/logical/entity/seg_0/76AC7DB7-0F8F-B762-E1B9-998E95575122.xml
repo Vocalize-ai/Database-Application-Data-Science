@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="76AC7DB7-0F8F-B762-E1B9-998E95575122" name="T_VT_ENDERECO">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:37:00 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="B22146F0-A1B4-8850-213A-18932A420B2B">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:57:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>11B1110C-DDCF-C5D7-8E55-A2642C683355</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<referedAttribute>A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="94FBF3D1-4B1E-1FAF-E0D2-8CE2420F51DD">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:37:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do endereco do cliente  gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do endereco do cliente  gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_LOGRADOURO" id="B69C39C6-CDC5-F4A7-B0B0-8C4B9115401E">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:37:49 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do logradouro. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do logradouro. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOGRADOURO" id="33123994-D40C-3BF5-55E9-473BFEF3E945">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:38:07 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do logradouro. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do logradouro. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_COMPLEMENTO" id="16F40231-50CA-9AEA-0D46-11EF888A65C1">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:38:31 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do complemento. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do complemento. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="202EEB82-2380-9261-087A-6F208C360E95">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:39:22 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do bairro. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do bairro. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="A71E4ADD-88EB-6FBE-5328-978793CCF8E9">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:39:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da cidade. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da cidade. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_ESTADO" id="E7CC74BD-89E3-608F-CDB4-1DD023A29192">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:40:18 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do estado. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do estado. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CEP" id="87AC4513-0A4D-3250-8877-B9C37AEB2107">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:40:56 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do cep. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do cep. Seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EE2F0A2-8532-B82C-CC89-B16A0E05189A" name="T_VT_ENDERECO PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:37:47 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>94FBF3D1-4B1E-1FAF-E0D2-8CE2420F51DD,11B1110C-DDCF-C5D7-8E55-A2642C683355</newElementsIDs>
+<usedAttributes>
+<attributeRef>94FBF3D1-4B1E-1FAF-E0D2-8CE2420F51DD</attributeRef>
+<attributeRef>B22146F0-A1B4-8850-213A-18932A420B2B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

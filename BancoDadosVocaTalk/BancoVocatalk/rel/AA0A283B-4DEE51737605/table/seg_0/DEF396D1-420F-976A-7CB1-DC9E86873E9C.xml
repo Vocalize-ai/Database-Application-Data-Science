@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEF396D1-420F-976A-7CB1-DC9E86873E9C" name="T_VT_SERVICO_ADICIONAL">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>8B7CC871-9E5B-E147-7835-DD0FF5E4303B</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SERVICO_ADICIONAL" id="E7610B43-0A3A-BCB7-4270-E3D62EA11F50">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>8A66AC04-8A29-2EE2-40D6-39CD3CEF0A3F</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_SERVICO" id="9D2AA770-70E7-521C-E3F8-A30485D2E3F5">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do servico adicional. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do servico adicional. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>7568603C-F480-A0E1-6B06-1DE9AF62ACF2</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VLR_SERVICO" id="C1784AB7-5CFE-8F89-B516-A27C0564FB32">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o valor do servico adicional. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o valor do servico adicional. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>626A89DB-35CA-C9B4-4F6B-987D12982A8B</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SERVICO_ADICIONAL" id="DAFE9111-63C3-6594-EBD1-A502F528981F">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-02 01:45:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição do servico adicional. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição do servico adicional. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>0E76EC11-6DBB-168F-53AE-0F39F1E13CB2</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="165C5BB6-625C-ACFD-12CD-BA8E95BBFC06" name="T_VT_SERVICO_ADICIONAL_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>FC122248-50EB-794E-75D7-010F5E935383</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7610B43-0A3A-BCB7-4270-E3D62EA11F50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

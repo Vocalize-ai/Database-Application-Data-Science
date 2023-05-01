@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D152A6FF-1539-5A15-CA25-CD5A16CA196B" name="T_VT_LOGIN">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>645E1563-7E69-0A7A-96BD-75536F2F4F9D</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOGIN" id="AA442422-474A-C6C8-9331-A923BA504C72">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do login do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do login do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>2613C4A4-2B76-82A5-AA7B-5F91432FBCF0</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="7A132907-0998-B3BE-8B23-CD76DFF7DE3F">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>1BBA88F5-66A4-8716-1E5A-C0D14B58E4C5</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDC98042-914A-2ACD-8174-821BC1B778CE" referredColumn="CC34C374-7F5B-42EF-4A7A-8E343137FD20"/>
+</associations>
+</Column>
+<Column name="DS_EMAIL" id="8EDC09BC-3AB3-E781-E309-74FE0B71836B">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o email do login do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o email do login do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>310BCC58-AC53-64D3-1642-549EB081F6F0</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_SENHA" id="9676BB5F-BF92-8695-C396-7EB38753071A">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a senha do login do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a senha do login do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>DAFCD7B7-2845-335B-5D7B-E39475474E30</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ULTIMO_LOGIN" id="7FB40C18-CC32-DE61-A687-B29B3AD9D84A">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data do último login do cliente, gerada automáticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data do último login do cliente, gerada automáticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>623ABC63-9064-4B29-C299-C7A9BA85A2A5</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85353877-4F9E-527F-668A-8AD8C723D3F7" name="T_VT_LOGIN_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>A8DECD21-4A3B-A76D-06ED-349D4E2BBCBE</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA442422-474A-C6C8-9331-A923BA504C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BBBACDA-DC06-B1E6-67A1-8EB97C577AA8" name="T_VT_LOGIN_DS_EMAIL_UN">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 19:44:03 UTC</createdTime>
+<generatorID>C0508B24-C902-39D5-8F09-FA5670182C32</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EDC09BC-3AB3-E781-E309-74FE0B71836B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC7058D5-A958-E90F-6558-E76E696BCB5F" name="T_VT_LOGIN_CLIENTE_IDX">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:54:02 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F94FFE72-8644-CFC0-DDD7-1CDD83CA6E22</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7A132907-0998-B3BE-8B23-CD76DFF7DE3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EC472FE-D20E-7DF3-BB38-C61923F3CDAA" name="T_VT_LOGIN_CLIENTE_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 14:58:42 UTC</createdTime>
+<generatorID>F94FFE72-8644-CFC0-DDD7-1CDD83CA6E22</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A132907-0998-B3BE-8B23-CD76DFF7DE3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

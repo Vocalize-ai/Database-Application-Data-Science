@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B0EB09B1-6455-FF28-B986-E2FFC4702DE4" mainViewID="99B13D3F-0477-2AAD-63C2-CCB8F05F6BFD">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:30:34 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

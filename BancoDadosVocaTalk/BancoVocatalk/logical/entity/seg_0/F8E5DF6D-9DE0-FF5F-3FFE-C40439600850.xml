@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F8E5DF6D-9DE0-FF5F-3FFE-C40439600850" name="T_VT_CLIENTE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:31:54 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CLIENTE" id="A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:33:30 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLiENTE" id="D4724E03-1117-C84B-0FB0-7423546FB230">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:34:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o email do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o email do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CPF" id="2927E5F3-F2F2-95F4-B582-92FA8FB66C95">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:34:50 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do cpf do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do cpf do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CADASTRO" id="5987EE39-8C90-F7AB-5558-2D09A728E19B">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 18:10:17 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF8A43A2-0727-CBEB-EE4F-E198BC4DCF93" name="T_VT_CLIENTE PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:34:20 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB</newElementsIDs>
+<usedAttributes>
+<attributeRef>A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7EF90BB6-D1FD-22FA-EB8F-8191122A7EA6" name="UK_VT_CPF">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 15:55:29 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="false"/>
+</engineerTo>
+<newElementsIDs>2927E5F3-F2F2-95F4-B582-92FA8FB66C95</newElementsIDs>
+<usedAttributes>
+<attributeRef>2927E5F3-F2F2-95F4-B582-92FA8FB66C95</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

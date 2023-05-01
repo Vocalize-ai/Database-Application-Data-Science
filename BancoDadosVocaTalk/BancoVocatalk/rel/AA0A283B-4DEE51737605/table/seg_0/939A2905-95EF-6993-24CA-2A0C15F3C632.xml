@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="939A2905-95EF-6993-24CA-2A0C15F3C632" name="T_VT_ITENS_FATURA">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<generatorID>8D21C41B-4631-2B8B-E922-2C1FB20DE355</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ITENS_FATURA" id="DD58C42B-6507-0F28-2D73-51118BBA8E63">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>C4B2FFF8-8ACA-3540-26E8-4C64CA5696D3</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PLANO" id="2BF6E79C-A214-A86A-3627-910921B2B01F">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do plano gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>B7C79174-E0B0-8C86-014C-88772F9A51FF</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A228583-C6DB-4C1A-EFC2-46A929D5C2EC" referredColumn="09509CD2-7CB4-93D4-842A-A2B0CCF70BBE"/>
+</associations>
+</Column>
+<Column name="ID_SERVICO_ADICIONAL" id="10129EBF-71CB-CC96-E650-E1DB909E41EF">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-07 14:16:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>5136DE37-66D6-C263-3164-DF1C0A8FAFE4</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7C7FFC6-AD4A-C967-5B7B-929367757B6D" referredColumn="E7610B43-0A3A-BCB7-4270-E3D62EA11F50"/>
+</associations>
+</Column>
+<Column name="ST_PLANO" id="B9DD355E-F3ED-571E-6F02-597CADA58988">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></commentInRDBMS>
+<generatorID>36E8DF5A-FA3A-DCC8-B170-122194A629E6</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ITEM_ADICIONADO" id="3172F440-F167-4187-D345-85249C8BB6F3">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-07 14:16:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a date em que o item do plano foi adicionado , será preenchida  automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a date em que o item do plano foi adicionado , será preenchida  automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<generatorID>3D36A0F7-7670-3C9B-5322-1CABE2FB0E87</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C20C9C8-41AF-7BD3-35B4-EE12F6D6484B" name="T_VT_ITENS_FATURA_PK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<generatorID>0F1766B6-0D3E-403D-B086-5C24C5CE9DC5</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD58C42B-6507-0F28-2D73-51118BBA8E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3363ACD-1F44-E256-0B0D-64C1F6EBCA62" name="T_VT_ITENS_FATURA_PLANO_IDX">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 18:36:46 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF6E79C-A214-A86A-3627-910921B2B01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51FA35F7-8DE8-E614-FC9B-BF48A2F3476C" name="T_VT_ITENS_FATURA_SERV_ADI_IDX">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-21 19:01:47 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10129EBF-71CB-CC96-E650-E1DB909E41EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="612E4DC6-75B0-5B4A-2AD3-0F44420BFE70" name="T_VT_ITENS_FATURA_PLANO_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 20:18:15 UTC</createdTime>
+<generatorID>074B84CE-9CCB-D13A-AE4D-1A097A113707</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF6E79C-A214-A86A-3627-910921B2B01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4684804-7D16-C6DA-B4F4-5304A0652394" name="T_VT_ITENS_FAT_SERV_ADIL_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-07 14:16:07 UTC</createdTime>
+<generatorID>A2105D51-A18E-59F4-052E-78FA4B243EA8</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10129EBF-71CB-CC96-E650-E1DB909E41EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

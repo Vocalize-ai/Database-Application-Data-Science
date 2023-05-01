@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D59DC59E-D909-DC39-453F-D404B69FDF26" containerWithKeyObject="0DCB27AD-ABF0-EAFA-0D2F-AAFEAB2A5D33" localFKIndex="4C4EEC92-AA53-961B-6569-9CC4FA41D8DE" name="T_VT_FATURA_CLIENTE_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-07 14:16:07 UTC</createdTime>
+<generatorID>0C6B4748-6C5A-4BE4-CBA6-B50924585227</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<referredTableLongName>T_VT_CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5188D9F2-7CAB-D3B0-78B2-55CE85268EC0</referredTableID>
+<keyObject>E7990716-EFA2-3360-1303-B5965C078703</keyObject>
+<referredKeyID>E7990716-EFA2-3360-1303-B5965C078703</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

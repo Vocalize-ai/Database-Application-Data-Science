@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VT_CLIENTE_FATURA" directorySegmentName="seg_0" id="0C6B4748-6C5A-4BE4-CBA6-B50924585227">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-07 13:54:09 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<engineerTo>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+</engineerTo>
+<sourcePk>BF8A43A2-0727-CBEB-EE4F-E198BC4DCF93</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F8E5DF6D-9DE0-FF5F-3FFE-C40439600850</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>071B5857-CF75-1DBE-B74C-AC42D431A6CB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

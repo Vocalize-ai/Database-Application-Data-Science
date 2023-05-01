@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="BancoVocatalk" id="C0799B7B-C5C6-3690-2E39-A2F3C7894235" version="3.5">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-04-01 13:30:34 UTC</createdTime>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C0799B7B-C5C6-3690-2E39-A2F3C7894235</designId>
+</OSDM_Design>
