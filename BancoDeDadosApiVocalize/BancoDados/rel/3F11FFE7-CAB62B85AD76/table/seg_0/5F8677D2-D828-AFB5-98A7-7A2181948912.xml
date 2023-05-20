@@ -84,6 +84,16 @@
 <colUsage columnID="DA5227E9-2FC0-8340-7A79-D97C75087B69"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="9E645988-9555-3C22-2A77-A4EF651485BC" name="T_VOCALIZE_FEEDBACK_LIGACAO_UN">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:17:34 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C2C4E18-AE1C-6B26-20BE-F2D066C1792B"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="0C08EE3F-C4C3-ED74-7668-985B5D7F7D05" name="T_VOCALIZE_FEEDBACK_LIGACAO_FK">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-01 15:08:15 UTC</createdTime>

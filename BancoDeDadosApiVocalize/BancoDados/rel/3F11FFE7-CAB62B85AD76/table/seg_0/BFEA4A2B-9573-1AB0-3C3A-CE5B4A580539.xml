@@ -26,7 +26,6 @@
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 22:38:48 UTC</createdTime>
 <comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
 <generatorID>2F33966E-0F57-AEE4-57B7-EEEE8DF1C587</generatorID>
 <ownerDesignName>BancoDados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -107,6 +106,15 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="16A8F0FE-F4C4-F0B2-5D68-CC51AC9B1262"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="540D7FD6-5347-8412-92C2-9E6275AC0544" name="T_VOCALIZE_LIGACAO_CLIENTE_IDX">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:16:58 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A051F49-84A0-79FF-A341-4A20903090A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="BCE89C90-E672-5010-CFAC-865106BCA2A5" name="T_VOCALIZE_LIGACAO_CLIENTE_FK">

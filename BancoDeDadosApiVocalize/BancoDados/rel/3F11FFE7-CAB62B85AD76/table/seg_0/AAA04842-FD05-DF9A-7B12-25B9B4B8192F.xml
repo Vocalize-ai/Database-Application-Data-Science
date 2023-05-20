@@ -50,11 +50,53 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_CADASTRO" id="FE35D212-5109-D7C8-7D38-8B76A6CF6C56">
+<Column name="DS_EMAIL" id="4107897C-C94C-86BE-2822-5BA229B4558F">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:13:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição  do email  do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição  do email  do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>F861FC7E-F2C1-0B7D-61BC-85A2A0D9F61F</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_DDD" id="1649D0C5-20FD-3EBB-4957-3DD3BEB4F47A">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:13:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do ddd  do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do ddd  do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>C7CCD00A-EFC3-0BCA-2095-BE73F9D66619</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="688F025A-5ED3-0834-0071-82C31A2BB5AE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:13:46 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número dtelefonee  do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número dtelefonee  do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>91358B08-B115-EA3D-9FF9-E724F84DCBE8</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ATENDIMENTO" id="FE35D212-5109-D7C8-7D38-8B76A6CF6C56">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 22:38:48 UTC</createdTime>
-<comment><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<comment><![CDATA[Esse atributo irá receber a data de atendimento do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de atendimento do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>1DE8E3F1-3B3F-DFC3-39F9-07502264BB1A</generatorID>
 <ownerDesignName>BancoDados</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -86,6 +128,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9793C13B-F942-54FE-9DB4-AF20083C5D7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6BFCC0E-1BCF-EF85-A9A9-D3C5311254B6" name="T_VT_CLIENTE_DS_EMAIL_UN">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:13:46 UTC</createdTime>
+<generatorID>64F429D9-055C-BB09-4DC7-38A36E5C2BEF</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4107897C-C94C-86BE-2822-5BA229B4558F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4931F847-1ED1-8809-9D13-B99CF2AF5BCD" name="T_VT_CLIENTE_NR_TELEFONE_UN">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:13:46 UTC</createdTime>
+<generatorID>98C98A6B-1315-E17C-15A4-46EECC362B30</generatorID>
+<ownerDesignName>BancoDados</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="688F025A-5ED3-0834-0071-82C31A2BB5AE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

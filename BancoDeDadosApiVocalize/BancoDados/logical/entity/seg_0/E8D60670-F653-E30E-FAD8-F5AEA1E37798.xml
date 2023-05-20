@@ -64,11 +64,56 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_CADASTRO" id="1DE8E3F1-3B3F-DFC3-39F9-07502264BB1A">
+<Attribute name="DS_EMAIL" id="F861FC7E-F2C1-0B7D-61BC-85A2A0D9F61F">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 17:54:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a descrição  do email  do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a descrição  do email  do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DDD" id="C7CCD00A-EFC3-0BCA-2095-BE73F9D66619">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 17:55:15 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número do ddd  do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do ddd  do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="91358B08-B115-EA3D-9FF9-E724F84DCBE8">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 17:58:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o número dtelefonee  do cliente. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número dtelefonee  do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_ATENDIMENTO" id="1DE8E3F1-3B3F-DFC3-39F9-07502264BB1A">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 21:44:48 UTC</createdTime>
-<comment><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber a data de cadastro do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<comment><![CDATA[Esse atributo irá receber a data de atendimento do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data de atendimento do cliente, gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></commentInRDBMS>
 <ownerDesignName>BancoDados</ownerDesignName>
 <importedID>5987EE39-8C90-F7AB-5558-2D09A728E19B</importedID>
 <engineerTo>
@@ -104,6 +149,30 @@
 </engineerTo>
 <usedAttributes>
 <attributeRef>7EA1349F-5424-7CB5-0CE2-6E44326A00FE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="64F429D9-055C-BB09-4DC7-38A36E5C2BEF" name="UK_VT_EMAIL">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:01:57 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<newElementsIDs>F861FC7E-F2C1-0B7D-61BC-85A2A0D9F61F</newElementsIDs>
+<usedAttributes>
+<attributeRef>F861FC7E-F2C1-0B7D-61BC-85A2A0D9F61F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="98C98A6B-1315-E17C-15A4-46EECC362B30" name="UK_VT_TELEFONE">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 18:03:09 UTC</createdTime>
+<ownerDesignName>BancoDados</ownerDesignName>
+<engineerTo>
+<item key="3F11FFE7-A556-BCC5-3313-CAB62B85AD76" value="true"/>
+</engineerTo>
+<newElementsIDs>91358B08-B115-EA3D-9FF9-E724F84DCBE8</newElementsIDs>
+<usedAttributes>
+<attributeRef>91358B08-B115-EA3D-9FF9-E724F84DCBE8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

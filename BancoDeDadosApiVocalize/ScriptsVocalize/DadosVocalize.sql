@@ -1,3 +1,32 @@
+--Inserindo dados na tabela t_vocalize_cliente
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (1, 'Jo�o Silva', '12345678901', 'joao@email.com', '11', '987654321', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (2, 'Maria Santos', '98765432109', 'maria@email.com', '11', '123456789', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (3, 'Pedro Oliveira', '45678912345', 'pedro@email.com', '31', '987634427', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (4, 'Ana Pereira', '98765432156', 'ana@email.com', '11', '981702202', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (5, 'Lucas Ferreira', '78912345678', 'lucas@email.com', '11', '987654321', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (6, 'Juliana Lima', '12398745601', 'juliana@email.com', '11', '123456789', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (7, 'Carlos Santos', '65478932109', 'carlos@email.com', '21', '912345678', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (8, 'Fernanda Almeida', '78945612345', 'fernanda@email.com', '31', '123456789', SYSDATE);
+
+INSERT INTO t_vt_cliente (id_cliente, nm_cliente, nr_cpf, ds_email, nr_ddd, nr_telefone, dt_atendimento)
+VALUES (9, 'Ricardo Sousa', '98732165456', 'ricardo@email.com', '41', '987654321', SYSDATE);
+
+
 --Inserindo dados na tabela t_vocalize_ligacao
 INSERT INTO t_vocalize_ligacao (id_ligacao, id_cliente, dt_ligacao, qtd_duracao, ds_trancricao_audio, ds_temperatura)
 VALUES (1, 1,TO_DATE('2023-01-12', 'YYYY-MM-DD'), 10, 'Mais informações sobre o produto', 'O cliente sentiu satisfeito');
