@@ -43,8 +43,8 @@
 <Column name="DS_EMAIL" id="8EDC09BC-3AB3-E781-E309-74FE0B71836B">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-01 14:58:42 UTC</createdTime>
-<comment><![CDATA[Esse atributo irá receber o email do login do cliente. Seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber o email do login do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<comment><![CDATA[Esse atributo irá receber o email do login do cliente único e exclusivio. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o email do login do cliente único e exclusivio. Seu conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>310BCC58-AC53-64D3-1642-549EB081F6F0</generatorID>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

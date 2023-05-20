@@ -30,22 +30,6 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_CLIENTE" id="DBAE007C-7C47-B202-9855-EE9DB923CAB0">
-<createdBy>Daniele</createdBy>
-<createdTime>2023-04-21 18:08:26 UTC</createdTime>
-<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
-<generatorID>3B900EA8-CD45-AA48-64D0-415DA47637A5</generatorID>
-<ownerDesignName>BancoVocatalk</ownerDesignName>
-<engineerTo>
-<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
-</engineerTo>
-<referedAttribute>A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NR_DDD" id="26F20DE7-C2C3-97D9-4916-4413E2BF905E">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 18:06:01 UTC</createdTime>
@@ -76,21 +60,21 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TP_CONTATO  " id="035F15C3-5364-F466-6486-E2712D34AC9F">
+<Attribute name="ID_CLIENTE" id="59C4354E-1634-A292-2A97-AD0CE5BC0F35">
 <createdBy>Daniele</createdBy>
-<createdTime>2023-04-21 18:07:28 UTC</createdTime>
-<comment><![CDATA[Esse atributo irá receber o tipo de contato do telefone do cliente. Seu conteúdo é opcionalo.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber o tipo de contato do telefone do cliente. Seu conteúdo é opcionalo.]]></commentInRDBMS>
+<createdTime>2023-05-14 22:59:23 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária do cliente gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<generatorID>648F7F88-9657-86B6-DA2A-5F2C3F1B11AF</generatorID>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <engineerTo>
 <item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A9F6C245-DCDA-4D0B-6423-4EBA00CDB6AB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -111,8 +95,9 @@
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 19:42:06 UTC</createdTime>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
+<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="false"/>
 </engineerTo>
 <newElementsIDs>E19FBED1-698E-C40C-7F6C-8AD1894F9735</newElementsIDs>
 <usedAttributes>

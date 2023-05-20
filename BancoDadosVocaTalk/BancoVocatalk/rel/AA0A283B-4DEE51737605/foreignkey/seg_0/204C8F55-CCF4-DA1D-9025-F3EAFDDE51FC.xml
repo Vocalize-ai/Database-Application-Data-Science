@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68FB0607-41EC-F55A-9616-AD716CF25162" containerWithKeyObject="0DCB27AD-ABF0-EAFA-0D2F-AAFEAB2A5D33" localFKIndex="A1AB5D66-A2F9-9354-6414-CDADD9A9DD2E" name="T_VT_FATURA_ITENS_FAT_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="204C8F55-CCF4-DA1D-9025-F3EAFDDE51FC" containerWithKeyObject="0DCB27AD-ABF0-EAFA-0D2F-AAFEAB2A5D33" localFKIndex="2D0CD1C8-16AD-4F0F-CBE2-DA8C5BCD718C" name="T_VT_FATURA_ITENS_FATURA_FK">
 <createdBy>Daniele</createdBy>
-<createdTime>2023-04-02 00:51:34 UTC</createdTime>
-<generatorID>21F87825-1AAA-7C7D-DE13-FAB573FF3D2E</generatorID>
+<createdTime>2023-05-20 00:42:37 UTC</createdTime>
+<generatorID>0F1766B6-0D3E-403D-B086-5C24C5CE9DC5</generatorID>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <referredTableLongName>T_VT_ITENS_FATURA</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

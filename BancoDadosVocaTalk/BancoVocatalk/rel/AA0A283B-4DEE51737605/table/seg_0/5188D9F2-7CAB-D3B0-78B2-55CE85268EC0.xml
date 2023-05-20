@@ -39,8 +39,8 @@
 <Column name="NR_CPF" id="8499AFE7-B03A-5CD6-0B42-281E0C83454E">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-01 14:58:42 UTC</createdTime>
-<comment><![CDATA[Esse atributo irá receber o número do cpf do cliente. Seu conteúdo é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber o número do cpf do cliente. Seu conteúdo é obrigatório.]]></commentInRDBMS>
+<comment><![CDATA[Esse atributo irá receber o número do cpf do cliente único e exclusivo. Seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do cpf do cliente único e exclusivo. Seu conteúdo é obrigatório.]]></commentInRDBMS>
 <generatorID>2927E5F3-F2F2-95F4-B582-92FA8FB66C95</generatorID>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

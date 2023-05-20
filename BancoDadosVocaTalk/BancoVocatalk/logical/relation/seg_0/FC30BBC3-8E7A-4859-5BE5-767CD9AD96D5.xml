@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VT_SERVICO_ADI_ITENS_FATURA" directorySegmentName="seg_0" id="A2105D51-A18E-59F4-052E-78FA4B243EA8">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ITENS_FATURA_SERV_ADD" directorySegmentName="seg_0" id="FC30BBC3-8E7A-4859-5BE5-767CD9AD96D5">
 <createdBy>Daniele</createdBy>
-<createdTime>2023-04-07 14:03:46 UTC</createdTime>
+<createdTime>2023-05-14 22:28:04 UTC</createdTime>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <engineerTo>
 <item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
 </engineerTo>
-<sourcePk>FC122248-50EB-794E-75D7-010F5E935383</sourcePk>
+<sourcePk>0F1766B6-0D3E-403D-B086-5C24C5CE9DC5</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>8B7CC871-9E5B-E147-7835-DD0FF5E4303B</sourceEntity>
+<sourceEntity>8D21C41B-4631-2B8B-E922-2C1FB20DE355</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>8D21C41B-4631-2B8B-E922-2C1FB20DE355</targetEntity>
+<targetEntity>B2B6F0A5-8FF6-1DB7-DAC4-48D8C5C70FB9</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7C7FFC6-AD4A-C967-5B7B-929367757B6D" containerWithKeyObject="939A2905-95EF-6993-24CA-2A0C15F3C632" localFKIndex="D4684804-7D16-C6DA-B4F4-5304A0652394" name="T_VT_ITENS_FAT_SERV_ADIL_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7C14026D-6B44-E496-8FDB-5180F6395F2A" containerWithKeyObject="1FCE3670-A3DB-D7C2-339A-0CF2326ABDCD" localFKIndex="DD7C2AA2-57B3-724A-73F5-EB4BD685E716" name="T_VT_IT_FT_SV_ADD_SV_AD_FK">
 <createdBy>Daniele</createdBy>
-<createdTime>2023-04-07 14:16:07 UTC</createdTime>
-<generatorID>A2105D51-A18E-59F4-052E-78FA4B243EA8</generatorID>
+<createdTime>2023-05-14 22:36:57 UTC</createdTime>
+<generatorID>10349276-884A-A396-D3FE-027C7C8E8EBC</generatorID>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <referredTableLongName>T_VT_SERVICO_ADICIONAL</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

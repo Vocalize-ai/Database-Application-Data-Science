@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="34FEDDC7-B242-83E6-D5B4-237FE52153AD" containerWithKeyObject="7D77D5A4-F989-A369-1D1B-481B08BA566E" localFKIndex="DB93CFD9-4FE5-2853-AF7B-B045937DF092" name="T_VT_TEL_CONT_CLIENTE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D6B44D71-8CEE-8ED5-703F-368E35DD767F" containerWithKeyObject="7D77D5A4-F989-A369-1D1B-481B08BA566E" localFKIndex="E9B97E78-07F9-0A95-D509-43CA9BA561AB" name="T_VT_TEL_CONTATO_CLIENTE_FK">
 <createdBy>Daniele</createdBy>
-<createdTime>2023-04-21 18:20:11 UTC</createdTime>
-<generatorID>3B900EA8-CD45-AA48-64D0-415DA47637A5</generatorID>
+<createdTime>2023-05-14 23:46:29 UTC</createdTime>
+<generatorID>648F7F88-9657-86B6-DA2A-5F2C3F1B11AF</generatorID>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <referredTableLongName>T_VT_CLIENTE</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

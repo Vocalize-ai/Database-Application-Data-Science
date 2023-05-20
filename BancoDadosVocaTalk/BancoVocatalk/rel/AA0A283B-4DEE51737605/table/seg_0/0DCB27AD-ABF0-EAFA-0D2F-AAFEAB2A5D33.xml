@@ -39,24 +39,6 @@
 <colAssociation fkAssociation="D59DC59E-D909-DC39-453F-D404B69FDF26" referredColumn="CC34C374-7F5B-42EF-4A7A-8E343137FD20"/>
 </associations>
 </Column>
-<Column name="ID_ITENS_FATURA" id="7BDA9888-7519-BD4B-4FD7-B9FFEB6B3E3A">
-<createdBy>Daniele</createdBy>
-<createdTime>2023-04-02 00:51:34 UTC</createdTime>
-<comment><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
-<generatorID>782F2197-F2F5-27E2-F0A8-5715531BF8CF</generatorID>
-<ownerDesignName>BancoVocatalk</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="68FB0607-41EC-F55A-9616-AD716CF25162" referredColumn="DD58C42B-6507-0F28-2D73-51118BBA8E63"/>
-</associations>
-</Column>
 <Column name="ID_TIPO_PAGAMENTO" id="84D14CDC-BF39-7641-AA11-A1653D51C259">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 18:20:11 UTC</createdTime>
@@ -73,6 +55,23 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="9697052D-5F88-7A54-CA46-0AEF4563431B" referredColumn="0912A0B8-9C10-F41E-491D-0D768DDC984B"/>
+</associations>
+</Column>
+<Column name="ID_ITENS_FATURA" id="88B1B646-C2B7-400C-EFD8-86D548940289">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 00:42:37 UTC</createdTime>
+<comment><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo é a chave primária dos itens da fatura,  gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="204C8F55-CCF4-DA1D-9025-F3EAFDDE51FC" referredColumn="DD58C42B-6507-0F28-2D73-51118BBA8E63"/>
 </associations>
 </Column>
 <Column name="VLR_FATURA" id="FCEB76CB-AF30-3902-5BFE-47EF7B509AB3">
@@ -145,7 +144,7 @@
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7BDA9888-7519-BD4B-4FD7-B9FFEB6B3E3A"/>
+<colUsage columnID="88B1B646-C2B7-400C-EFD8-86D548940289"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="5D0D95D3-0821-BCA5-F89A-44F572D3EB07" name="T_VT_FATURA_TP_PAGT_IDX">
@@ -155,17 +154,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="84D14CDC-BF39-7641-AA11-A1653D51C259"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A1AB5D66-A2F9-9354-6414-CDADD9A9DD2E" name="T_VT_FATURA_ITENS_FAT_FK">
-<createdBy>Daniele</createdBy>
-<createdTime>2023-04-02 00:51:34 UTC</createdTime>
-<generatorID>21F87825-1AAA-7C7D-DE13-FAB573FF3D2E</generatorID>
-<ownerDesignName>BancoVocatalk</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="7BDA9888-7519-BD4B-4FD7-B9FFEB6B3E3A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="4C4EEC92-AA53-961B-6569-9CC4FA41D8DE" name="T_VT_FATURA_CLIENTE_FK">
@@ -179,7 +167,7 @@
 <colUsage columnID="7C2467C5-C37B-D4BB-78A2-226AA47B407C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0B1624D7-9283-702A-520F-9EA79E020577" name="T_VT_FATURA_TP_PAG_FK">
+<ind_PK_UK id="0B1624D7-9283-702A-520F-9EA79E020577" name="T_VT_FATURA_TIPO_PAGAMENTO_FK">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 18:20:11 UTC</createdTime>
 <generatorID>2E16DF98-A60A-93F9-3D3C-80AC3DAF4CF5</generatorID>
@@ -188,6 +176,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="84D14CDC-BF39-7641-AA11-A1653D51C259"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D0CD1C8-16AD-4F0F-CBE2-DA8C5BCD718C" name="T_VT_FATURA_ITENS_FATURA_FK">
+<createdBy>Daniele</createdBy>
+<createdTime>2023-05-20 00:42:37 UTC</createdTime>
+<generatorID>0F1766B6-0D3E-403D-B086-5C24C5CE9DC5</generatorID>
+<ownerDesignName>BancoVocatalk</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88B1B646-C2B7-400C-EFD8-86D548940289"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

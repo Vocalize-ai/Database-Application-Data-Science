@@ -47,28 +47,11 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_SERVICO_ADICIONAL" id="5136DE37-66D6-C263-3164-DF1C0A8FAFE4">
-<createdBy>Daniele</createdBy>
-<createdTime>2023-04-07 14:03:46 UTC</createdTime>
-<comment><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo é a chave primária do servico gerada automáticamente.Seu conteúdo é obrigátorio.]]></commentInRDBMS>
-<generatorID>A2105D51-A18E-59F4-052E-78FA4B243EA8</generatorID>
-<ownerDesignName>BancoVocatalk</ownerDesignName>
-<engineerTo>
-<item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>
-</engineerTo>
-<referedAttribute>8A66AC04-8A29-2EE2-40D6-39CD3CEF0A3F</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ST_PLANO" id="36E8DF5A-FA3A-DCC8-B170-122194A629E6">
+<Attribute name="ST_ITEM" id="36E8DF5A-FA3A-DCC8-B170-122194A629E6">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-01 18:54:48 UTC</createdTime>
 <comment><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do plano contratado. Seu conteúso é obrigatório.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Esse atributo irá receber A(Ativo) ou I(Inativo) para identificar o status do item contratado. Seu conteúso é obrigatório.]]></commentInRDBMS>
 <ownerDesignName>BancoVocatalk</ownerDesignName>
 <engineerTo>
 <item key="AA0A283B-1C31-097A-607D-4DEE51737605" value="true"/>

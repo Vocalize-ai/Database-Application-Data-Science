@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9697052D-5F88-7A54-CA46-0AEF4563431B" containerWithKeyObject="0DCB27AD-ABF0-EAFA-0D2F-AAFEAB2A5D33" localFKIndex="0B1624D7-9283-702A-520F-9EA79E020577" name="T_VT_FATURA_TP_PAG_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9697052D-5F88-7A54-CA46-0AEF4563431B" containerWithKeyObject="0DCB27AD-ABF0-EAFA-0D2F-AAFEAB2A5D33" localFKIndex="0B1624D7-9283-702A-520F-9EA79E020577" name="T_VT_FATURA_TIPO_PAGAMENTO_FK">
 <createdBy>Daniele</createdBy>
 <createdTime>2023-04-21 18:20:11 UTC</createdTime>
 <generatorID>2E16DF98-A60A-93F9-3D3C-80AC3DAF4CF5</generatorID>

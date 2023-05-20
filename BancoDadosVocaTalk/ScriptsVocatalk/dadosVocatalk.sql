@@ -11,66 +11,36 @@ INSERT INTO t_vt_cliente VALUES (9, 'Rafaela Oliveira', '90123456789', TO_DATE('
 INSERT INTO t_vt_cliente VALUES (10, 'Daniel Santos', '01234567890', TO_DATE('2022-03-11', 'YYYY-MM-DD'));
 
 -- Inserindo dados na tabela t_vt_telefone_contato
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (1, 1, '11', '98326-2722', 'Celular');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (1, 1, '11', '98326-2722');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (2, 2, '11', '99212-4299', 'Comercial');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (2, 2, '11', '99212-4299');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (3, 3, '13', '99905-7242', 'Celular');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (3, 3, '13', '99905-7242');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (4, 4, '15', '97138-8236', 'Residencial');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (4, 4, '15', '97138-8236');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (5, 5, '12', '98470-4329', 'Celular');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (5, 5, '12', '98470-4329');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (6, 6, '11', '99121-1382', 'Comercial');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (6, 6, '11', '99121-1382');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (7, 7, '11', '97376-4351', 'Celular');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (7, 7, '11', '97376-4351');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (8, 8, '19', '98472-8414', 'Comercial');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (8, 8, '19', '98472-8414');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (9, 9, '16', '96715-7166', 'Celular');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (9, 9, '16', '96715-7166');
 
-INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone, tp_contato)
-VALUES (10, 10, '12', '98430-1162', 'Comercial');
+INSERT INTO t_vt_telefone_contato (id_telefone_contato, id_cliente, nr_ddd, nr_telefone)
+VALUES (10, 10, '12', '98430-1162');
 
--- Inserindo dados na tabela t_vt_endereco
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (1, 1, 'Rua Augusta', 1000, 'Apto 101', 'Consolação', 'São Paulo', 'SP', '01310100');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (2, 2, 'Rua da Consolação', 2500, 'Apto 302', 'Cerqueira César', 'São Paulo', 'SP', '01301001');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (3, 3, 'Avenida Brigadeiro Faria Lima', 2000, 'Conj. 501', 'Jardim Paulistano', 'São Paulo', 'SP', '01452001');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (4, 4, 'Rua Joaquim Antunes', 361, 'Apto 102', 'Pinheiros', 'São Paulo', 'SP', '05415010');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (5, 5, 'Rua Oscar Freire', 2052, 'Loja 01', 'Cerqueira César', 'São Paulo', 'SP', '05409011');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (6, 6, 'Rua dos Pinheiros', 940, 'Sala 3', 'Pinheiros', 'São Paulo', 'SP', '05422001');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (7, 7, 'Rua Pamplona', 1200, 'Apto 41', 'Jardim Paulista', 'São Paulo', 'SP', '01405002');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (8, 8, 'Rua Augusta', 1524, 'Sala 201', 'Consolação', 'São Paulo', 'SP', '01304001');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (9, 9, 'Avenida Paulista', 1578, 'Conj. 1201', 'Bela Vista', 'São Paulo', 'SP', '01310916');
-
-INSERT INTO t_vt_endereco (id_endereco, id_cliente, nm_logradouro, nr_logradouro, ds_complemento, nm_bairro, nm_cidade, nm_estado, ds_cep) 
-VALUES (10, 10, 'Rua Carlos Comenale', 57, 'Apto 62', 'Cerqueira César', 'São Paulo', 'SP', '01422040');
 
 --Inserindo dados na tabela t_vt_login
 
@@ -143,35 +113,54 @@ VALUES (6, '25GB de Internet', 100.00, 'Adicional de 25GB de internet no mês');
 
 
 -- Inserindo dados na tabela t_vt_itens_fatura
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (1, 1, 2, 'A', TO_DATE('2020-01-04', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (1, 1, 'A', TO_DATE('2020-01-04', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (2, 2, 1, 'A', TO_DATE('2020-02-12', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (2, 2, 'A', TO_DATE('2020-02-12', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (3, 3, 3, 'A', TO_DATE('2021-02-26', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (3, 3, 'A', TO_DATE('2021-02-26', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (4, 4, 1, 'A', TO_DATE('2021-08-21', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (4, 4, 'A', TO_DATE('2021-08-21', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (5, 4, 1, 'I', TO_DATE('2021-09-16', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (5, 4, 'I', TO_DATE('2021-09-16', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (6, 1, 4, 'A', TO_DATE('2021-10-01', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (6, 1, 'A', TO_DATE('2021-10-01', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (7, 1, 1, 'A', TO_DATE('2022-11-10', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (7, 1, 'A', TO_DATE('2022-11-10', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (8, 5, 1, 'A', TO_DATE('2023-01-19', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (8, 5, 'A', TO_DATE('2023-01-19', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado)
-VALUES (9, 4, 2, 'I', TO_DATE('2023-02-22', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado)
+VALUES (9, 4, 'I', TO_DATE('2023-02-22', 'YYYY-MM-DD'));
 
-INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, id_servico_adicional, st_plano, dt_item_adicionado) 
-VALUES (10, 5, 1, 'A', TO_DATE('2023-03-25', 'YYYY-MM-DD'));
+INSERT INTO t_vt_itens_fatura (id_itens_fatura, id_plano, st_item, dt_item_adicionado) 
+VALUES (10, 5, 'A', TO_DATE('2023-03-25', 'YYYY-MM-DD'));
+
+-- Inserindo dados na tabela t_vt_itens_fat_serv_add
+INSERT INTO t_vt_itens_fat_serv_add (id_itens_fatura, id_servico_adicional) 
+VALUES (1,1);
+
+INSERT INTO t_vt_itens_fat_serv_add (id_itens_fatura, id_servico_adicional) 
+VALUES (2,1);
+
+INSERT INTO t_vt_itens_fat_serv_add (id_itens_fatura, id_servico_adicional) 
+VALUES (2,2);
+
+INSERT INTO t_vt_itens_fat_serv_add (id_itens_fatura, id_servico_adicional) 
+VALUES (3,2);
+
+INSERT INTO t_vt_itens_fat_serv_add (id_itens_fatura, id_servico_adicional) 
+VALUES (3,3);
+
+INSERT INTO t_vt_itens_fat_serv_add (id_itens_fatura, id_servico_adicional) 
+VALUES (4,3);
 
 -- Inserindo dados na tabela t_vt_tipo_pagamento
 INSERT INTO t_vt_tipo_pagamento (id_tipo_pagamento, nm_tipo_pagamento, ds_tipo_pagamento)
