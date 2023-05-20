@@ -1,5 +1,5 @@
 -- Gerado por Oracle SQL Developer Data Modeler 19.4.0.350.1424
---   em:        2023-05-20 15:18:33 BRT
+--   em:        2023-05-20 15:58:11 BRT
 --   site:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
@@ -24,9 +24,12 @@ COMMENT ON COLUMN t_vocalize_feedback.nr_nivel_avaliacao IS
 COMMENT ON COLUMN t_vocalize_feedback.ds_comentario IS
     'Esse atributo irá receber o comentário do feedback da ligação.Seu conteúdo é opcional.';
 
-ALTER TABLE t_vocalize_feedback ADD CONSTRAINT t_vocalize_feedback_pk PRIMARY KEY ( id_feedback );
+CREATE INDEX t_vocalize_feedback_lig_idx ON
+    t_vocalize_feedback (
+        id_ligacao
+    ASC );
 
-ALTER TABLE t_vocalize_feedback ADD CONSTRAINT t_vocalize_feedback_ligacao_un UNIQUE ( id_ligacao );
+ALTER TABLE t_vocalize_feedback ADD CONSTRAINT t_vocalize_feedback_pk PRIMARY KEY ( id_feedback );
 
 CREATE TABLE t_vocalize_ligacao (
     id_ligacao           NUMBER(8) NOT NULL,
@@ -111,8 +114,8 @@ ALTER TABLE t_vocalize_ligacao
 -- Relatório do Resumo do Oracle SQL Developer Data Modeler: 
 -- 
 -- CREATE TABLE                             3
--- CREATE INDEX                             1
--- ALTER TABLE                              9
+-- CREATE INDEX                             2
+-- ALTER TABLE                              8
 -- CREATE VIEW                              0
 -- ALTER VIEW                               0
 -- CREATE PACKAGE                           0
